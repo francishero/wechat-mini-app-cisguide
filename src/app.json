@@ -1,13 +1,46 @@
 {
   "pages": [
-    "pages/index/main",
-    "pages/logs/main",
-    "pages/counter/main"
+    "pages/blog/main",
+    "pages/homepage/main",
+    "pages/center/main",
+    "pages/collect/main",
+    "pages/detail/main",
+    "pages/feedback/main",
+    "pages/new/main"
   ],
   "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
-  }
+    "backgroundTextStyle": "Black",
+    "navigationBarBackgroundColor": "#39b54a",
+    "navigationBarTitleText": "CisGuide",
+    "navigationBarTextStyle": "light"
+  },
+  "plugins" : {
+      "WechatSI": {
+        "version": "0.1.0",
+        "provider": "wx069ba97219f66d99"
+      }
+  },
+  "tabBar": {
+      "color": "#39b54a",
+      "selectedColor": "#39b54a",
+      "borderStyle": "black",
+      "list": [{
+          "pagePath": "pages/blog/main",
+          "text": "Home",
+          "iconPath": "static/assets/home.png",
+          "selectedIconPath": "static/assets/home-active.png",
+          "selectedColor":"#39b54a"
+      }, {
+          "pagePath": "pages/homepage/main",
+          "text": "Translate",
+          "iconPath": "static/assets/ic_translated.png",
+          "selectedIconPath": "static/assets/ic_translated-active.png"
+
+      }, {
+          "pagePath": "pages/center/main",
+          "text": "Me",
+          "iconPath": "static/assets/me.png",
+          "selectedIconPath": "static/assets/me-active.png"
+      }]
+    }
 }

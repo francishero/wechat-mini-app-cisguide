@@ -1,21 +1,25 @@
-# cisguider
+## CisGuide
 
-> nuist international students helper
+## Project Description
+This is a wechat mini app for international students to have access to updated information at my
+university in china. Nanjing University of information science and technology.
+It has articles and also has translation from english to chinese with voice recognition technology developed by wechat team.
 
-## Build Setup
+### lets talk: wechat ==> baheroh
 
-``` bash
-# install dependencies
-npm install
+## Images
 
-# serve with hot reload at localhost:8080
-npm run dev
+<p>
+  <img src="../static/assets/homepage.png" width="40%" />
+  <img src="../static/assets/details.png" width="40%"/>
+  <img src="../static/assets/translatepage.png" width="40%" />
+  <img src="../static/assets/mine.png" width="40%" />
+  
+</p>
 
-# build for production with minification
-npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
+## Mini app Qrcode
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+<img src="../static/assets/qrcode.jpg" width="40%" />
+
+

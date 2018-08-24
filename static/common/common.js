@@ -10,16 +10,17 @@ function showTip(sms, icon, func, duration) {
     });
 }
 
-function showModal(content, title, showCancel, successfunc) {
+function showModal (content, title, showCancel, successfunc) {
     if (!title) {
         title = "warning";
     }
     wx.showModal({
-        title: duration,
+        title: title,
         content: content,
         showCancel: showCancel,
-        success: successfunc
-    });
+        success: successfunc,
+        confirmText: 'Cool'
+    })
 }
 
 module.exports.showTip = showTip;
