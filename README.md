@@ -10,16 +10,16 @@ It has articles and also has translation from english to chinese with voice reco
 ## Images
 
 <p>
-  <img src="../static/assets/homepage.png" width="40%" />
-  <img src="../static/assets/details.png" width="40%"/>
-  <img src="../static/assets/translatepage.png" width="40%" />
-  <img src="../static/assets/mine.png" width="40%" />
+  <img src="/static/assets/homepage.png" width="40%" />
+  <img src="/static/assets/details.png" width="40%"/>
+  <img src="/static/assets/translatepage.png" width="40%" />
+  <img src="/static/assets/mine.png" width="40%" />
   
 </p>
 
 
 ## Mini app Qrcode
 
-<img src="../static/assets/qrcode.jpg" width="40%" />
+<img src="/static/assets/qrcode.jpg" width="40%" />
 
 
