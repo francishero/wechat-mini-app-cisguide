@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import App from './App'
 import Bmob from '../static/bmob/Bmob-1.4.4.min'
-Bmob.initialize('420a2738490db81de24ebce87213bdaf', 'ad5eb8f37c0d3263e06eaa2c9924a450')
+Bmob.initialize('','')
 
 Vue.config.productionTip = false
 App.mpType = 'app'
